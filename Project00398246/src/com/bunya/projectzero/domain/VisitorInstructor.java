@@ -7,8 +7,8 @@ public class VisitorInstructor extends Instructor {
 	}
 
 	@Override
-	public String getInstructorType() {
-		return "visitor";
+	public LecturerType getType() {
+		return LecturerType.VISITOR;
 	}
 
 }
