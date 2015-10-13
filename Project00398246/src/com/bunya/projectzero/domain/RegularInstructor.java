@@ -7,8 +7,8 @@ public class RegularInstructor extends Instructor {
 	}
 
 	@Override
-	public String getInstructorType() {
-		return "regular";
+	public LecturerType getType() {
+		return LecturerType.REGULAR;
 	}
 
 }
